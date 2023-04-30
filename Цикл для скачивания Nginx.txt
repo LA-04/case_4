@@ -1,0 +1,2 @@
+for I in $(apt-cache depends nginx nginx-full | grep –E ‘Зависит|Предлагает’ | cut –d ‘:’ –f 2,3 | sed –e 
+s/’<‘/’’/ -e s/’>’/’’/); do sudo apt-get download $i 2>>errors.txt; done;

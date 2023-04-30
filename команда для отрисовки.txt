@@ -1,0 +1,1 @@
+Salt BM01 cmd.run ‘echo “<html><body><h1>Hello Greenatom</h1></body></html>” > /var/www/html/index.nginx-debian.html’

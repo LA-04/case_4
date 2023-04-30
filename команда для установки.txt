@@ -1,0 +1,1 @@
+salt BM01 cmd.run ‘dpkg –I /tmp/nginx-full*.deb’
